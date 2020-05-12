@@ -1,0 +1,9 @@
+# vManage Connectivity Info
+vmanage_host: 10.10.20.90
+vmanage_port: 443
+vmanage_username: admin
+vmanage_password: C1sco12345
+
+hub_routers: 
+  - system_ip: 10.10.1.13
+  - system_ip: 10.10.1.15
