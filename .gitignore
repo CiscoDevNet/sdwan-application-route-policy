@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 vmanage_login.yaml
 log/
+Tunnel*
 
 # C extensions
 *.so
