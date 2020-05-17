@@ -1,9 +1,8 @@
 # vManage Connectivity Info
-vmanage_host: 10.10.20.90
+vmanage_host: sdwanlab.cisco.com
 vmanage_port: 443
-vmanage_username: admin
-vmanage_password: C1sco12345
+vmanage_username: devnet_api
+vmanage_password: devnet_api
 
 hub_routers: 
-  - system_ip: 10.10.1.13
-  - system_ip: 10.10.1.15
+  - system_ip: 1.1.1.5
