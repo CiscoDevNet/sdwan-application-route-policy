@@ -150,7 +150,7 @@ if __name__ == '__main__':
                                 {
                                     "value": [
                                               start_date+"T00:00:00 UTC",
-                                              end_date+"T00:00:00 UTC" 
+                                              end_date+"T23:59:59 UTC" 
                                              ],
                                     "field": "entry_time",
                                     "type": "date",
@@ -170,7 +170,8 @@ if __name__ == '__main__':
                                 "field": [
                                 {
                                     "property": "name",
-                                    "sequence": 1
+                                    "sequence": 1,
+                                    "size": 6000
                                 },
                                 {
                                     "property": "proto",
@@ -271,7 +272,7 @@ if __name__ == '__main__':
                 
             else:
                 if logger is not None:
-                    logger.error("Failed to retrieve app route statistics\n")
+                    logger.error("Failed to retrieve app route statistics %s\n"%response.text)
 
         writer.save()
         print("\nCreated report %s"%filename)
